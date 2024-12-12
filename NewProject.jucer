@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="g5u8yW" name="NewProject" projectType="consoleapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="eaAyFd" name="NewProject">
+    <GROUP id="{2355098B-D9A3-B54F-83D2-2AB4FA211520}" name="Source"/>
+    <FILE id="YOyyAq" name="Main.cpp" compile="1" resource="0" file="../../MusicalScaleTrainerBlind/Scale/Main.cpp"/>
+    <FILE id="sLnWVv" name="MainMenu.cpp" compile="1" resource="0" file="../../MusicalScaleTrainerBlind/Scale/MainMenu.cpp"/>
+    <FILE id="gX8Hr8" name="MainMenu.h" compile="0" resource="0" file="../../MusicalScaleTrainerBlind/Scale/MainMenu.h"/>
+    <FILE id="Ji3MHw" name="MidiHandler.cpp" compile="1" resource="0" file="../../MusicalScaleTrainerBlind/Scale/MidiHandler.cpp"/>
+    <FILE id="RvlK3d" name="MidiHandler.h" compile="0" resource="0" file="../../MusicalScaleTrainerBlind/Scale/MidiHandler.h"/>
+    <FILE id="kyXNjD" name="RtMidi.cpp" compile="1" resource="0" file="../../MusicalScaleTrainerBlind/Scale/RtMidi.cpp"/>
+    <FILE id="tRFhAN" name="RtMidi.h" compile="0" resource="0" file="../../MusicalScaleTrainerBlind/Scale/RtMidi.h"/>
+    <FILE id="bwlq8R" name="rtmidi_c.cpp" compile="1" resource="0" file="../../MusicalScaleTrainerBlind/Scale/rtmidi_c.cpp"/>
+    <FILE id="YVXmPz" name="rtmidi_c.h" compile="0" resource="0" file="../../MusicalScaleTrainerBlind/Scale/rtmidi_c.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
